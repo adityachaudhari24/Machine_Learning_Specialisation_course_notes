@@ -34,27 +34,55 @@ This repository contains the notes and key concepts from below resources
 - `Regression meaning` - Its finding the relationship which explains how one element depends on another. 
   - `Regression` also means trying to `predict a number` from infinitely `possible outputs`.
   - `Example` - Predicting house prices based on features like size, location, number of rooms, etc.
-  - In advertising, it's used... given input features of user, ad, context, predict click through rate (CTR)
+  - in ecommerce , given input features of user, product, context, predict purchase amount.
 
 
 ⭐⭐ Classification supervised learning ⭐⭐
 - `Classification meaning` - Its finding the relationship which explains how one element belongs to a particular category or class.
   - `Classification` also means trying to `predict a label` from a `finite set of possible outputs`.
   - `Example` - Email spam detection (spam or not spam), image recognition (cat, dog, car, etc.)
-  - In advertising, it's used... given input features of user, ad, context, predict whether user will click on the ad (yes/no)
-  
-- ⭐⭐ Regression supervised learning ⭐⭐
-- `Regression meaning` - Its finding the relationship which explains how one element depends on another. 
-  - `Regression` also means trying to `predict a number` from infinitely `possible outputs`.
-  - `Example` - Predicting house prices based on features like size, location, number of rooms, etc.
-  - In advertising, it's used... given input features of user, ad, context, predict click through rate (CTR)
+    - in ecommerce , given input features of user, product, context, predict whether user will buy the product (yes/no)
 
 
 
-- NOTESSS- 
+- IMP One liners - 
 - 💡 Its not always finding the straight line in supervised learning regression; this can be polynomial, logarithmic, exponential, etc.
 - Classification algorithms predicts categories / classes / labels unlike regression which predicts continuous values( e.g., real numbers).
 </details>
+
+
+<details>
+<summary>🎯Q. What is unsupervised learning in ML?</summary>
+
+- In `unsupervised learning` we ask algorithms to find something intresting in unlabeled data. Where in `supervised learning` the algorithm learns from the labeled data.
+- Examples 
+  - `Anomaly detection` - identifying unusual data points that do not conform to expected behavior.
+  - `Clustering` - grouping similar data points together based on their features.
+  - `Dimensionality reduction` - compress data using fewer numbers, reducing the number of features in a dataset while preserving important information.
+
+</details>
+
+<details>
+<summary>🎯Q. What is linear regression model?</summary>
+
+- ![alt text](image.png)
+- For linear regression, the model is represented by:
+
+  **f<sub>w,b</sub>(x)<sup>(i)</sup> = wx<sup>(i)</sup> + b**
+
+  Where:
+  - **f<sub>w,b</sub>(x)** is the prediction function
+  - `w` is the weight/slope parameter
+  - `b` is the bias/y-intercept parameter
+  - `x` is the input feature
+- The formula above is how you can represent straight lines - different values of  𝑤 and  𝑏 give you different straight lines on the plot.
+- The formula can be used to predict outcomes based on input features, making it a fundamental concept in machine learning.
+- ![alt text](image-1.png)
+- ![alt text](image-2.png)
+- ![alt text](image-3.png)
+</details>
+
+
 
 <br>
 <br>
