@@ -82,7 +82,19 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-3.png)
 </details>
 
+<details>
+<summary>🎯Q. what is cost function ?</summary>
 
+- The `cost function` (or `loss function`) is used to define the best parameters for the model, in our liniear regression case the best values for w and b.
+- The goal of linear regression is to find the parameters `w` or `w` and `b` that results in smallest possible value for the cost J.
+- ![alt text](image-4.png)
+- ![alt text](image-5.png)
+- ![alt text](image-6.png)
+- ![alt text](image-7.png)
+- ![alt text](image-8.png)
+- ![alt text](image-9.png)
+- ![alt text](image-10.png)
+</details>
 
 <br>
 <br>
@@ -98,4 +110,11 @@ This repository contains the notes and key concepts from below resources
 🚀 - For advanced topics .
 🚫 - For indicating something that cannot be used or a concerning point
 </summary>
+</details>
+
+<details>
+<summary>🎯Q. fsdfsdf</summary>
+
+- 
+
 </details>
