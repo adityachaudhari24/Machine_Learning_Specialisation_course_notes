@@ -107,6 +107,8 @@ This repository contains the notes and key concepts from below resources
 - `Gradient descent` is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters (like `w` and `b` in linear regression) in the direction of the steepest descent of the cost function.
 - ![alt text](image-14.png)
 - ![alt text](image-15.png)
+- ![alt text](image-16.png)
+- ![alt text](image-17.png)
 </details>
 
 
