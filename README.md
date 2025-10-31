@@ -94,7 +94,21 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-8.png)
 - ![alt text](image-9.png)
 - ![alt text](image-10.png)
+- Cost and MOdel examples below
+- ![alt text](image-11.png)
+- ![alt text](image-12.png)
+- ![alt text](image-13.png)
 </details>
+
+
+<details>
+<summary>🎯Q. what is gradient descent ?</summary>
+
+- `Gradient descent` is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters (like `w` and `b` in linear regression) in the direction of the steepest descent of the cost function.
+- ![alt text](image-14.png)
+- ![alt text](image-15.png)
+</details>
+
 
 <br>
 <br>
