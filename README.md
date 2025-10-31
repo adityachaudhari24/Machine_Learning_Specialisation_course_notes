@@ -107,8 +107,28 @@ This repository contains the notes and key concepts from below resources
 - `Gradient descent` is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters (like `w` and `b` in linear regression) in the direction of the steepest descent of the cost function.
 - ![alt text](image-14.png)
 - ![alt text](image-15.png)
+  - In Above diagram, "alpha" controls `how big a step` we take on each iteration towards the minimum.
+  - If `"alpha"` is too small, the algorithm will take a long time to converge.
+  - If `"alpha"` is too large, the algorithm may overshoot the minimum and fail
+  - If `"alpha"` is just right, the algorithm will converge quickly to the minimum.
+  - `derivative` tell us in which direction to adjust the parameters to reduce the cost.
+  - `"derivative"` is the `slope of the cost function at the current point`.
+  - `alpha * derivative` gives the amount to adjust the parameters (step size) per iteration.
 - ![alt text](image-16.png)
 - ![alt text](image-17.png)
+- ![alt text](image-20.png)
+- ![alt text](image-21.png)
+- In below diagram, we can see until to find the global minimum point of cost function, we need to keep updating w and b values using gradient descent algorithm.
+- ![alt text](image-22.png)
+- In `batch gradient descent`, we use the entire training dataset to compute the gradient of the cost function for each iteration. This means that for every update of the model parameters, we consider all training examples. Meaning in gradient descent we have algorithms to calculate the W and B here it use entire batch of data to compute the gradient of the cost function for each iteration.
+</details>
+
+<details>
+<summary>🎯Q. what is learning rate? </summary>
+
+- The `learning rate` (denoted as `α` or "alpha") is a hyperparameter that controls the step size at each iteration while moving toward a minimum of a loss function during the training of a machine learning model.
+- ![alt text](image-18.png)
+- ![alt text](image-19.png)
 </details>
 
 
