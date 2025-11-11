@@ -54,17 +54,27 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. What is unsupervised learning in ML?</summary>
 
-- In `unsupervised learning` we ask algorithms to find something intresting in unlabeled data. Where in `supervised learning` the algorithm learns from the labeled data.
+- In `unsupervised learning` we ask algorithms to find something intresting in unlabeled data. (interesting patterns) Where in `supervised learning` the algorithm learns from the labeled data.
 - Examples 
-  - `Anomaly detection` - identifying unusual data points that do not conform to expected behavior.
-  - `Clustering` - grouping similar data points together based on their features.
-  - `Dimensionality reduction` - compress data using fewer numbers, reducing the number of features in a dataset while preserving important information.
+  - `Anomaly detection` - identifying unusual data points that do not conform to expected behavior. Example - fraud detection in financial transactions.
+  - `Clustering` - grouping similar data points together based on their features. Example - customer segmentation in marketing.
+  - `Dimensionality reduction` - compress data using fewer numbers, reducing the number of features in a dataset while preserving important information. Example - Principal Component Analysis (PCA) for image compression.
+
+</details>
+
+<details>
+<summary>🎯Q. what is meaning of `regression` in machine learning?</summary>
+
+- In machine learning "regression" mean predicting continuous values based on input features.
+- ![alt text](image-23.png)
 
 </details>
 
 <details>
 <summary>🎯Q. What is linear regression model?</summary>
 
+- Linear regression model is a type of regression model that assumes a linear relationship between the input features (independent variables) and the output variable (dependent variable). Meaning it tries to fit a straight line (or hyperplane in higher dimensions) to the data points.
+- The goal of linear regression is to find the best-fitting line that minimizes the difference between the predicted values and the actual values in the dataset. 
 - ![alt text](image.png)
 - For linear regression, the model is represented by:
 
@@ -129,6 +139,14 @@ This repository contains the notes and key concepts from below resources
 - The `learning rate` (denoted as `α` or "alpha") is a hyperparameter that controls the step size at each iteration while moving toward a minimum of a loss function during the training of a machine learning model.
 - ![alt text](image-18.png)
 - ![alt text](image-19.png)
+</details>
+
+<details>
+<summary>🎯Q. Linear regression with multiple features? how its denoted ?</summary>
+
+- ![alt text](image-24.png)
+- 
+
 </details>
 
 
