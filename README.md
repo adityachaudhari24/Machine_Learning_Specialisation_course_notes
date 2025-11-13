@@ -95,7 +95,7 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. what is cost function ?</summary>
 
-- The `cost function` (or `loss function`) is used to define the best parameters for the model, in our liniear regression case the best values for w and b.
+- The `cost function` (or `loss function`) is used to define the best parameters for the model, in our linear regression case the best values for w and b.
 - The goal of linear regression is to find the parameters `w` or `w` and `b` that results in smallest possible value for the cost J.
 - ![alt text](image-4.png)
 - ![alt text](image-5.png)
@@ -144,11 +144,89 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. Linear regression with multiple features? how its denoted ?</summary>
 
+- `connecting with the intuition of the dot product` : As dot product measures the similarity between two vectors, multiplying all input X features with their corresponding weights W and summing them up gives us a weighted sum that represents the model's prediction.
 - ![alt text](image-24.png)
-- 
+- ![alt text](image-25.png)
+- ![alt text](image-26.png)
+- ![alt text](image-27.png)
+- Vectorization benifits - make code shorter, also makes code run faster by leveraging optimized linear algebra libraries which use parallel hardware capabilities.
 
 </details>
 
+<details>
+<summary>🎯Q. Why vectorization is fast compared to normal computation?</summary>
+
+- ![alt text](image-28.png)
+- ![alt text](image-29.png)
+</details>
+
+<details>
+<summary>🎯Q. Gradient descent for multiple linear regression with vectorization ?</summary>
+
+- ![alt text](image-30.png)
+- ![alt text](image-31.png)
+- ![alt text](image-32.png)
+- 
+</details>
+
+<details>
+<summary>🎯Q. what is feature scaling and why its important ?</summary>
+
+- Feature scaling is a technique used to standardize the range of independent variables or features of data. In machine learning, it is important because many algorithms are sensitive to the scale of the input features. If the features are on different scales, it can lead to suboptimal performance and convergence issues during training.
+- ![alt text](image-33.png)
+- ![alt text](image-34.png)
+- If we use training data as it is, features with larger scales can dominate the learning process, making it difficult for the model to learn from features with smaller scales.
+- check below example, on why we need feature scaling? without feature scaling, gradient descent may take longer to converge or may not converge at all. (converge : means in layman terms - reach to the optimal solution, in our case optimal values of W and B)
+- In below example snap observe how contours are elongated ellipses, indicating that the cost function changes more rapidly in one direction than the other. This can lead to slow convergence because gradient descent will take small steps in the direction of the steepest slope, which may not be aligned with the direction of the minimum.
+- ![alt text](image-35.png)
+- ![alt text](image-36.png)
+- ![alt text](image-37.png)
+- ![alt text](image-38.png)
+- ![alt text](image-39.png)
+- Different methods of feature scaling - 
+  - Min-Max Scaling (Normalization)
+  - Standardization (Z-score normalization)
+  - Robust Scaling
+  - Max Abs Scaling
+</details>
+
+<details>
+<summary>🎯Q. How we would know scaling actually worked ? meaning how can we tell our gradient descent is converging?</summary>
+
+- Job of the gradient descent is to define the parameters w and b such that hopefully minimize the the cost function J(w,b).
+- ![alt text](image-40.png)
+- ![alt text](image-41.png)
+- ![alt text](image-42.png)
+</details>
+
+<details>
+<summary>🎯Q. what is feature engineering ?</summary>
+
+- Feature engineering is the process of using domain knowledge to select, modify, or create new features from raw data to improve the performance of machine learning models.
+- It involves techniques such as feature selection, feature extraction, and feature transformation to enhance the quality and relevance of the input data used for training.
+- Effective feature engineering can lead to better model accuracy, reduced overfitting, and improved interpretability of the results.
+- ![alt text](image-43.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is polinomial regression ?</summary>
+
+- In simple terms, polynomial regression is an extension of linear regression that allows us to model non-linear relationships between the input features and the output variable by introducing polynomial terms. Essentially, it fits a curve to the data instead of a straight line.
+- ![alt text](image-44.png)
+- ![alt text](image-45.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is logistic regression algorithm why its used ?</summary>
+
+- Logistic regression is a statistical method used for binary classification problems, where the goal is to predict one of two possible outcomes (e.g., yes/no, true/false, 0/1) based on input features.
+- ![alt text](image-46.png)
+- why linear regression does not work for classification problem ? because linear regression can produce values outside the range of 0 to 1, which are not valid probabilities. Logistic regression addresses this issue by using the logistic (sigmoid) function to map predicted values to probabilities between 0 and 1.
+- ![alt text](image-47.png)
+
+</details>
 
 <br>
 <br>
