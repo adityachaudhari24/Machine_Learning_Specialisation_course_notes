@@ -95,6 +95,7 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. what is cost function ?</summary>
 
+- Excellent visualization in this video : https://www.youtube.com/watch?v=3dhcmeOTZ_Q&t=35s
 - The `cost function` (or `loss function`) is used to define the best parameters for the model, in our linear regression case the best values for w and b.
 - The goal of linear regression is to find the parameters `w` or `w` and `b` that results in smallest possible value for the cost J.
 - ![alt text](image-4.png)
@@ -108,12 +109,14 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-11.png)
 - ![alt text](image-12.png)
 - ![alt text](image-13.png)
+
 </details>
 
 
 <details>
 <summary>🎯Q. what is gradient descent ?</summary>
 
+- Excellent video here - https://www.youtube.com/watch?v=sDv4f4s2SB8
 - `Gradient descent` is an optimization algorithm used to minimize the cost function by iteratively adjusting the model parameters (like `w` and `b` in linear regression) in the direction of the steepest descent of the cost function.
 - ![alt text](image-14.png)
 - ![alt text](image-15.png)
@@ -210,9 +213,9 @@ This repository contains the notes and key concepts from below resources
 </details>
 
 <details>
-<summary>🎯Q. what is polinomial regression ?</summary>
+<summary>🎯Q. what is polynomial regression ?</summary>
 
-- In simple terms, polynomial regression is an extension of linear regression that allows us to model non-linear relationships between the input features and the output variable by introducing polynomial terms. Essentially, it fits a curve to the data instead of a straight line.
+- Polynomial regression is an extension of linear regression that allows us to model non-linear relationships between the input features and the output variable by introducing polynomial terms. Essentially, it fits a curve to the data instead of a straight line.
 - ![alt text](image-44.png)
 - ![alt text](image-45.png)
 
