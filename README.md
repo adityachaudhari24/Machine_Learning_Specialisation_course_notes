@@ -228,8 +228,40 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-46.png)
 - why linear regression does not work for classification problem ? because linear regression can produce values outside the range of 0 to 1, which are not valid probabilities. Logistic regression addresses this issue by using the logistic (sigmoid) function to map predicted values to probabilities between 0 and 1.
 - ![alt text](image-47.png)
+- check below snap for how logistic regression formula is derived
+- ![alt text](image-48.png)
+- ![alt text](image-49.png)
+- ![alt text](image-50.png)
+- ![alt text](image-51.png)
+- ![alt text](image-52.png)
+- ![alt text](image-53.png)
+- ![alt text](image-54.png)
+- This is excellent video to understand what is sigmoid function - https://www.youtube.com/watch?v=yIYKR4sgzI8
 
 </details>
+
+<details>
+<summary>🎯Q. what is decision bounday and how its calculated ?</summary>
+
+- ![alt text](image-55.png)
+- ![alt text](image-56.png)
+- ![alt text](image-57.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Cost function for the logistic regression ?</summary>
+
+- why seuqred error is not a good choice ? check below snap
+- ![alt text](image-59.png)
+- Remember the loss function measures how well you are doing on a one training example and is by `summing up` the losses of all training examples we get the cost function. Meaning it sums up the loss over all training examples keeping one example at a time to calculate the total loss.
+- ![alt text](image-60.png)
+- ![alt text](image-61.png)
+- ![alt text](image-62.png)
+
+</details>
+
+
 
 <br>
 <br>
