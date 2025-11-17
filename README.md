@@ -96,8 +96,9 @@ This repository contains the notes and key concepts from below resources
 <summary>🎯Q. what is cost function ?</summary>
 
 - Excellent visualization in this video : https://www.youtube.com/watch?v=3dhcmeOTZ_Q&t=35s
-- The `cost function` (or `loss function`) is used to define the best parameters for the model, in our linear regression case the best values for w and b.
-- The goal of linear regression is to find the parameters `w` or `w` and `b` that results in smallest possible value for the cost J.
+- Given b and w , cost function helps us to understand how good or bad our model is performing. This is by measuring the difference between predicted 
+  values and actual values.
+- The goal of linear regression is to find the parameters `w` and `b` that results in smallest possible value for the cost J.
 - ![alt text](image-4.png)
 - ![alt text](image-5.png)
 - ![alt text](image-6.png)
@@ -237,6 +238,7 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-53.png)
 - ![alt text](image-54.png)
 - This is excellent video to understand what is sigmoid function - https://www.youtube.com/watch?v=yIYKR4sgzI8
+- In essence: sigmoid turns linear regression’s output → into a probability → which makes logistic regression suitable for classification.
 
 </details>
 
@@ -258,8 +260,86 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-60.png)
 - ![alt text](image-61.png)
 - ![alt text](image-62.png)
+- ![alt text](image-63.png)
+- ![alt text](image-64.png)
+
 
 </details>
+
+<details>
+<summary>🎯Q. Gradient descent for logistic regression ?</summary>
+
+- ![alt text](image-65.png)
+- 
+
+</details>
+
+<details>
+<summary>🎯Q. what is overfitting and how to manage it ?</summary>
+
+- ![alt text](image-66.png)
+- overfit = high variance similarly underfit = high bias
+- ![alt text](image-67.png)
+- addressing overfitting techniques 
+- ![alt text](image-68.png)
+- ![alt text](image-69.png)
+- ![alt text](image-70.png)
+- ![alt text](image-71.png)
+
+
+</details>
+
+<details>
+<summary>🎯Q. what regularization technique and its use ?</summary>
+
+- Regularization is a technique used in machine learning to prevent overfitting by adding a penalty term to the loss function. This penalty discourages the model from fitting the training data too closely, which can lead to poor generalization on unseen data.
+- ![alt text](image-72.png)
+- ![alt text](image-73.png)
+</details>
+
+<br>
+<br>
+
+# Module 2: Advanced Learning Algorithms
+
+<details>
+<summary>🎯Q. what is neuron and neural network?</summary>
+
+- A `neuron` is a fundamental unit of a neural network that processes and transmits information. It receives input signals, applies a mathematical function (activation function) to these inputs, and produces an output signal that is passed to other neurons in the network.
+- ![alt text](image-74.png)
+- ![alt text](image-75.png)
+- ![alt text](image-76.png)
+- ![alt text](image-77.png)
+- ![alt text](image-78.png)
+- ![alt text](image-79.png)
+- ![alt text](image-80.png)
+- ![alt text](image-81.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is forward prapogation ?</summary>
+
+- Its an algorithm to calculate the output of neural network given input features and weights and biases of each neuron.
+- We can download the weights and biases after training the model and use those to make predictions on new data using forward propagation.
+- `Forward propagation` is the process by which `input data is passed through a neural network to generate an output`. It involves calculating the weighted sum of inputs, applying activation functions, and propagating the results through each layer of the network until the final output is produced. As its from left to right direction its called `forward propagation`.
+- Remember forward prapogration is different then backpropogation.
+  `Forward prapogation` - use for `making predictions`.
+  `Backpropogation` - use for `training the model`.
+
+- Example below : 
+- ![alt text](image-82.png)
+- ![alt text](image-83.png)
+- ![alt text](image-84.png)
+</details>
+
+<br>
+<br>
+
+# General Notes on Machine Learning
+
+- Applying ML techniques to dig into large amounts of data can help discover patterns that were not immediately apparent. This is called `data mining`.
+
 
 
 
