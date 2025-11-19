@@ -427,11 +427,10 @@ This repository contains the notes and key concepts from below resources
 
 - Applying ML techniques to dig into large amounts of data can help discover patterns that were not immediately apparent. This is called `data mining`.
 - ⭐Remember the `loss function measures` how well you are doing on `one training example` and by summing up the losses of all training examples we get the `cost function`.⭐
-- <details>
+<details>
 <summary>🎯Q. Difference Linear Regression vs Neural Network </summary>
 
 - ![alt text](image-118.png)
-
 </details>
 
 
