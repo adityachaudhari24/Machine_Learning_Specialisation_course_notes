@@ -353,9 +353,72 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-93.png)
 - ![alt text](image-94.png)
 - ![alt text](image-95.png)
-- 
+</details>
+
+<details>
+<summary>🎯Q. Forward prapogation math behind the scene imple just by using python and numpy to build the intuition</summary>
+
+- ![alt text](image-97.png)
+- ![alt text](image-98.png)
+- 💡 Think of `dense as a calculator that uses W and b to compute outputs`. The process of learning these values is handled by the training algorithm outside the dense function. This step adjusts W and b to minimize the loss.
+- Inside tensorflow library, dense layer does forward prapogation by calculating the weighted sum of inputs and adding bias, then applying activation function to produce output.
+- ![alt text](image-104.png)
 
 </details>
+
+<details>
+<summary>🎯Q. what does activation function mean actually in forward propagation </summary>
+
+- ![alt text](image-99.png)
+- ![alt text](image-100.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Does forward prop consider defauly W and B values initially ? why?</summary>
+
+- ![alt text](image-101.png)
+- ![alt text](image-102.png)
+- ![alt text](image-103.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Matrics operations revision</summary>
+
+- ![alt text](image-105.png)
+- ![alt text](image-106.png)
+- ![alt text](image-107.png)
+- ![alt text](image-108.png)
+- ![alt text](image-109.png)
+- ![alt text](image-110.png)
+</details>
+
+
+<details>
+<summary>🎯Q. Training a neural network in tensorflow 3 key steps understanding</summary>
+
+- ![alt text](image-111.png)
+- `step 1` : specifiy the model which tells tensorflow how to compute for inference (forward prapogation)
+- `step 2` : compiles the model using specific loss function
+- `step 3` : train the model using training data, which internally uses backpropogation to update W and B values to minimize the loss function.
+- ![alt text](image-112.png)
+- ![alt text](image-113.png)
+- ![alt text](image-114.png)
+- ![alt text](image-115.png)
+</details>
+
+
+<details>
+<summary>🎯Q. Alternative to sigmoud activation in neural network</summary>
+
+- ![alt text](image-116.png)
+- `ReLU activation function` - A popular activation function that introduces non-linearity by outputting the input directly if it is positive; otherwise, it outputs zero.
+- Most commonly used activation functions
+- ![alt text](image-117.png)
+
+</details>
+
 
 <br>
 <br>
@@ -363,6 +426,13 @@ This repository contains the notes and key concepts from below resources
 # General Notes on Machine Learning
 
 - Applying ML techniques to dig into large amounts of data can help discover patterns that were not immediately apparent. This is called `data mining`.
+- ⭐Remember the `loss function measures` how well you are doing on `one training example` and by summing up the losses of all training examples we get the `cost function`.⭐
+- <details>
+<summary>🎯Q. Difference Linear Regression vs Neural Network </summary>
+
+- ![alt text](image-118.png)
+
+</details>
 
 
 
