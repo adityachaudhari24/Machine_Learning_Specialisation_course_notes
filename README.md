@@ -410,12 +410,36 @@ This repository contains the notes and key concepts from below resources
 
 
 <details>
-<summary>🎯Q. Alternative to sigmoud activation in neural network</summary>
+<summary>🎯Q. Alternative to sigmoid activation in neural network ?  Different activation functions </summary>
 
 - ![alt text](image-116.png)
 - `ReLU activation function` - A popular activation function that introduces non-linearity by outputting the input directly if it is positive; otherwise, it outputs zero.
 - Most commonly used activation functions
 - ![alt text](image-117.png)
+- ![alt text](image-119.png)
+- ![alt text](image-120.png)
+- ![alt text](image-121.png)
+- why we cannot use just linear activation in neural networks ? because using linear activation function in all layers of a neural network would make the entire network equivalent to a single-layer linear model, regardless of the number of layers. `This is because the composition of linear functions is still a linear function`. As a result, the network would not be able to learn complex patterns or representations from the data, limiting its ability to solve non-linear problems effectively. [ check below snap]
+- ![alt text](image-122.png)
+- ![alt text](image-123.png)
+- ![alt text](image-124.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Multiclass classification </summary>
+
+- ![alt text](image-125.png)
+- ![alt text](image-126.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is softmax </summary>
+
+- `softmax regression algorithm` is a generalization of logistic regression that is used for `multi-class classification problems`, where the goal is to predict one of several possible classes or categories.
+- ![alt text](image-127.png)
+- ![alt text](image-128.png)
 
 </details>
 
@@ -432,6 +456,10 @@ This repository contains the notes and key concepts from below resources
 
 - ![alt text](image-118.png)
 </details>
+
+- ⭐Activation functions introduce non-linearity into neural networks, enabling them to learn complex patterns and relationships in data.⭐
+- check M2_week2_code/home/jovyan/work/C2_W2_Relu.ipynb for more details on why non-linear activation functions are important.
+- The sigmoid is best for on/off or binary situations. The ReLU provides a continuous linear relationship. Additionally it has an 'off' range where the output is zero. The "off" feature makes the ReLU a Non-Linear activation.
 
 
 
