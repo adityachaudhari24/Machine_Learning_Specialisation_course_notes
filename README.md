@@ -440,6 +440,32 @@ This repository contains the notes and key concepts from below resources
 - `softmax regression algorithm` is a generalization of logistic regression that is used for `multi-class classification problems`, where the goal is to predict one of several possible classes or categories.
 - ![alt text](image-127.png)
 - ![alt text](image-128.png)
+- ![alt text](image-129.png)
+- ![alt text](image-130.png)
+- ![alt text](image-131.png)
+- IMP step below - Its hard to read / interprete as its softmax as before however its more accurate numerically stable version of softmax function.
+- ![alt text](image-132.png)
+- ![alt text](image-133.png)
+- ![alt text](image-134.png)
+
+</details>
+
+
+<details>
+<summary>🎯Q. Multiclass classification vs multi-label classification problems </summary>
+
+- Multiclass classification - In multiclass classification, each instance is assigned to one and only one class from a set of multiple classes. For example, classifying images of animals into categories like cat, dog, or bird.
+- Multi-label classification - In multi-label classification, each instance can be assigned to multiple classes simultaneously. For example, tagging a news article with multiple topics like politics, economy, and health.
+
+- ![alt text](image-135.png)
+- ![alt text](image-136.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Optimization algorithms apart from Gaadient Descent ? </summary>
+
+- 
 
 </details>
 
