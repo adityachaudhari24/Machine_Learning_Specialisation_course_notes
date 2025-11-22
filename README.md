@@ -320,7 +320,7 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. what is forward prapogation ?</summary>
 
-- Its an algorithm to calculate the output of neural network given input features and weights and biases of each neuron.
+- Its an `algorithm to calculate the output of neural network given input features and weights and biases of each neuron`.
 - We can download the weights and biases after training the model and use those to make predictions on new data using forward propagation.
 - `Forward propagation` is the process by which `input data is passed through a neural network to generate an output`. It involves calculating the weighted sum of inputs, applying activation functions, and propagating the results through each layer of the network until the final output is produced. As its from left to right direction its called `forward propagation`.
 - Remember forward prapogration is different then backpropogation.
@@ -465,8 +465,44 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. Optimization algorithms apart from Gaadient Descent ? </summary>
 
-- 
+- ![alt text](image-137.png)
+- ![alt text](image-138.png)
+- ![alt text](image-139.png)
 
+</details>
+
+<details>
+<summary>🎯Q. Additional layer types ? </summary>
+
+- ![alt text](image-140.png)
+- ![alt text](image-141.png)
+- ![alt text](image-142.png)
+
+</details>
+
+<details>
+<summary>🎯Q. What is derivative, generate intuition behind it ? </summary>
+
+- ![alt text](image-143.png)
+- ![alt text](image-144.png)
+- ![alt text](image-145.png)
+- ![alt text](image-146.png)
+- ![alt text](image-147.png)
+- ![alt text](image-148.png)
+
+</details>
+
+<details>
+<summary>🎯Q. how to calculate derivative in neural network ? what is computational graph ? </summary>
+
+- Its a key concept to understand backpropogation algorithm. Its a key idea in the deep learning.
+- ![alt text](image-149.png)
+- ![alt text](image-150.png)
+- ![alt text](image-151.png)
+- ![alt text](image-152.png)
+- ![alt text](image-153.png)
+- ![alt text](image-154.png)
+- 
 </details>
 
 
