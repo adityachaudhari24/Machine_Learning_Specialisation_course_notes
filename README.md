@@ -511,6 +511,7 @@ This repository contains the notes and key concepts from below resources
 
 - ![alt text](image-155.png)
 - ![alt text](image-156.png)
+- ![alt text](image-174.png)
 </details>
 
 <details>
@@ -544,8 +545,82 @@ This repository contains the notes and key concepts from below resources
 </details>
 
 
+<details>
+<summary>🎯Q. what is Learning curve</summary>
+
+- Learning curve is a graphical representation that shows how a machine learning model's performance improves over time as it is trained on more data. It typically plots the model's accuracy or error rate against the number of training examples or iterations.
+- ![alt text](image-171.png)
+- ![alt text](image-172.png)
+- When we have high bias , increasing the training data will not help much as the model is too simple to capture the underlying patterns in the data. Hoewever, when we have high variance, increasing the training data can help the model generalize better and reduce overfitting.
+- ![alt text](image-173.png)
+</details>
+
+![alt text](image-175.png)
+
+
 <br>
 <br>
+
+
+<details>
+<summary>🎯Q. Bias and Variance in the neural network</summary>
+
+- Neural networks with big data gives us the new ways to handle bias and variance.
+- ![alt text](image-176.png)
+- ![alt text](image-177.png)
+- ![alt text](image-178.png)
+- ![alt text](image-179.png)
+
+</details>
+
+
+<summary>🎯Q. Iterative loop of ML development</summary>
+
+- ![alt text](image-184.png)
+- ![alt text](image-185.png)
+- ![alt text](image-186.png)
+- ![alt text](image-187.png)
+- ![alt text](image-188.png)
+
+</details>
+
+<summary>🎯Q. Techniques to adding data to reduce overfitting</summary>
+
+- If error analysis indicated that a subset of specific set of data is causing overfitting, then we can collect more data for that specific subset to reduce overfitting.
+- ![alt text](image-189.png)
+- ![alt text](image-190.png)
+- ![alt text](image-191.png)
+- ![alt text](image-192.png)
+- ![alt text](image-193.png)
+- ![alt text](image-194.png)
+
+</details>
+
+<summary>🎯⭐⭐⭐Q. Transfer learning : using data from differet task⭐⭐⭐</summary>
+
+- Transfer learning is a machine learning technique where a model trained on one task is reused as the starting point for a model on a second task. It leverages the knowledge gained from the first task to improve performance on the second task, `especially when the second task has limited data`.
+- why transfer learning works ? because `the early layers of a neural network learn general features` that are applicable to many tasks, while the later layers learn task-specific features. By reusing the early layers from a pre-trained model, we can take advantage of the general features learned from a large dataset and adapt them to the new task with less data.
+- ![alt text](image-195.png)
+- ![alt text](image-196.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Full cycle of machine learning project</summary>
+
+- ![alt text](image-197.png)
+- ![alt text](image-198.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Fairness Bias and Ethics</summary>
+
+- ![alt text](image-199.png)
+- ![alt text](image-200.png)
+- ![alt text](image-201.png)
+
+</details>
 
 # General Notes on Machine Learning
 
@@ -554,12 +629,25 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. Difference Linear Regression vs Neural Network </summary>
 
-- ![alt text](image-118.png)
+
 </details>
 
 - ⭐Activation functions introduce non-linearity into neural networks, enabling them to learn complex patterns and relationships in data.⭐
 - check M2_week2_code/home/jovyan/work/C2_W2_Relu.ipynb for more details on why non-linear activation functions are important.
 - The sigmoid is best for on/off or binary situations. The ReLU provides a continuous linear relationship. Additionally it has an 'off' range where the output is zero. The "off" feature makes the ReLU a Non-Linear activation.
+
+<details>
+<summary>🎯Q. Bias and Variance key tradeoff points</summary>
+
+- ![alt text](image-118.png)
+- ![alt text](image-180.png)
+- ![alt text](image-181.png)
+- ![alt text](image-182.png)
+- ![alt text](image-183.png)
+
+</details>
+
+
 
 
 
