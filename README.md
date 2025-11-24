@@ -463,8 +463,9 @@ This repository contains the notes and key concepts from below resources
 </details>
 
 <details>
-<summary>🎯Q. Optimization algorithms apart from Gaadient Descent ? </summary>
+<summary>🎯Q. Optimization algorithms apart from Gradient Descent ? </summary>
 
+- ADAM is most popular optimization algorithm used in deep learning, difference between gradient descent and ADAM is that gradient descent uses a fixed learning rate for all parameters, while ADAM adapts the learning rate for each parameter based on the first and second moments of the gradients.
 - ![alt text](image-137.png)
 - ![alt text](image-138.png)
 - ![alt text](image-139.png)
@@ -503,6 +504,21 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-153.png)
 - ![alt text](image-154.png)
 - 
+</details>
+
+<details>
+<summary>🎯Q. Debugging a learning algorithm and optimization tips ? </summary>
+
+- ![alt text](image-155.png)
+- ![alt text](image-156.png)
+</details>
+
+<details>
+<summary>🎯Q. Techniques to evaluate the model ? </summary>
+
+- ![alt text](image-157.png)
+- ![alt text](image-158.png)
+- ![alt text](image-159.png)
 </details>
 
 
