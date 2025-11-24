@@ -484,6 +484,8 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. What is derivative, generate intuition behind it ? </summary>
 
+- ![alt text](image-202.png)
+- ![alt text](image-203.png)
 - ![alt text](image-143.png)
 - ![alt text](image-144.png)
 - ![alt text](image-145.png)
@@ -573,7 +575,7 @@ This repository contains the notes and key concepts from below resources
 
 </details>
 
-
+<details>
 <summary>🎯Q. Iterative loop of ML development</summary>
 
 - ![alt text](image-184.png)
@@ -584,6 +586,7 @@ This repository contains the notes and key concepts from below resources
 
 </details>
 
+<details>
 <summary>🎯Q. Techniques to adding data to reduce overfitting</summary>
 
 - If error analysis indicated that a subset of specific set of data is causing overfitting, then we can collect more data for that specific subset to reduce overfitting.
@@ -596,12 +599,20 @@ This repository contains the notes and key concepts from below resources
 
 </details>
 
+<details>
 <summary>🎯⭐⭐⭐Q. Transfer learning : using data from differet task⭐⭐⭐</summary>
 
 - Transfer learning is a machine learning technique where a model trained on one task is reused as the starting point for a model on a second task. It leverages the knowledge gained from the first task to improve performance on the second task, `especially when the second task has limited data`.
 - why transfer learning works ? because `the early layers of a neural network learn general features` that are applicable to many tasks, while the later layers learn task-specific features. By reusing the early layers from a pre-trained model, we can take advantage of the general features learned from a large dataset and adapt them to the new task with less data.
 - ![alt text](image-195.png)
 - ![alt text](image-196.png)
+
+</details>
+<details>
+<summary>🎯Q. Full cycle of machine learning project</summary>
+
+- ![alt text](image-197.png)
+- ![alt text](image-198.png)
 
 </details>
 
