@@ -521,6 +521,28 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-159.png)
 </details>
 
+<details>
+<summary>🎯Q. cross validation vs test set ? </summary>
+
+- ![alt text](image-160.png)
+- ![alt text](image-161.png)
+- ![alt text](image-162.png)
+- ![alt text](image-163.png)
+</details>
+
+<details>
+<summary>🎯Q. Diagnosting Bias and Variance and how to regularize it and establish base line performance? </summary>
+
+- ![alt text](image-164.png)
+- ![alt text](image-165.png)
+- key takeaway - High bias does not even doing well on training set, while high variance means it does much worse on corss validation and test set compared to training set.
+- ![alt text](image-166.png)
+- ![alt text](image-167.png)
+- ![alt text](image-168.png)
+- ![alt text](image-169.png)
+- ![alt text](image-170.png)
+</details>
+
 
 <br>
 <br>
