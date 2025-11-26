@@ -557,8 +557,6 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-173.png)
 </details>
 
-![alt text](image-175.png)
-
 
 <br>
 <br>
@@ -632,6 +630,49 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-201.png)
 
 </details>
+<br>
+<br>
+
+### Decision Trees
+
+<details>
+<summary>🎯Q. Decision Trees model</summary>
+
+- Decision tree is a supervised learning algorithm used for classification and regression tasks. It splits the data into subsets based on the value of input features, creating a tree-like model of decisions. Each internal node represents a feature, each branch represents a decision rule, and each leaf node represents an outcome or class label.
+- ![alt text](image-204.png)
+- ![alt text](image-205.png)
+- ![alt text](image-206.png)
+- ![alt text](image-207.png)
+- ![alt text](image-208.png)
+- ![alt text](image-209.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Measuring the purity (enthropy)</summary>
+
+- Enthropy is a measure of impruty in the data, it starts from 0 (pure) to 1 (impure) and come back to 0 (pure) again.
+- ![alt text](image-210.png)
+- ![alt text](image-211.png)
+
+</details>
+
+<details>
+<summary>🎯Q. how to reduce enthropy </summary>
+
+- Information gain is a measure of the reduction in entropy achieved by splitting the data based on a particular feature. It quantifies how much uncertainty is reduced after the split.
+- ![alt text](image-212.png)
+- ![alt text](image-213.png)
+- ![alt text](image-214.png)
+
+</details>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 # General Notes on Machine Learning
 
@@ -650,6 +691,7 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. Bias and Variance key tradeoff points</summary>
 
+- ![alt text](image-175.png)
 - ![alt text](image-118.png)
 - ![alt text](image-180.png)
 - ![alt text](image-181.png)
@@ -682,6 +724,6 @@ This repository contains the notes and key concepts from below resources
 <details>
 <summary>🎯Q. fsdfsdf</summary>
 
-- 
+- dsd
 
 </details>
