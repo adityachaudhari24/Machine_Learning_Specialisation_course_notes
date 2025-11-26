@@ -557,11 +557,6 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-173.png)
 </details>
 
-
-<br>
-<br>
-
-
 <details>
 <summary>🎯Q. Bias and Variance in the neural network</summary>
 
@@ -664,6 +659,68 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-212.png)
 - ![alt text](image-213.png)
 - ![alt text](image-214.png)
+- ![alt text](image-215.png)
+- ![alt text](image-216.png)
+- ![alt text](image-217.png)
+
+</details>
+
+<details>
+<summary>🎯Q. what is one-hot encoding ?</summary>
+
+- One-hot encoding is a technique used to convert categorical variables into a binary matrix representation. Each category is represented as a binary vector, where only one element is "hot" (1) and all other elements are "cold" (0).
+- ![alt text](image-218.png)
+- ![alt text](image-219.png)
+- ![alt text](image-220.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Decision trees on continuous valueed features</summary>
+
+- ![alt text](image-221.png)
+- ![alt text](image-222.png)
+- 
+
+</details>
+
+<details>
+<summary>🎯Q. Using multiple decision trees, also what is random forest ?</summary>
+
+- Random forests are an ensemble learning method that combines multiple decision trees to improve accuracy and control overfitting. 
+- Each tree is trained on a random subset of the data, and the final prediction is made by averaging the predictions of all the trees.
+- ![alt text](image-223.png)
+- ![alt text](image-224.png)
+- ![alt text](image-225.png)
+- ![alt text](image-226.png)
+- ![alt text](image-227.png)
+- ![alt text](image-228.png)
+- ![alt text](image-229.png)
+
+</details>
+
+<details>
+<summary>🎯Q. XGBoost decision tree</summary>
+
+- ![alt text](image-230.png)
+- ![alt text](image-231.png)
+- ![alt text](image-232.png)
+
+</details>
+
+<details>
+<summary>🎯Q. When to use the decision trees?</summary>
+
+- Decision trees and Neural network both are powerful learning algorithms.
+- ![alt text](image-233.png)
+
+</details>
+
+
+<details>
+<summary>🎯Q. fsdfsdf</summary>
+
+- dsd
 
 </details>
 
