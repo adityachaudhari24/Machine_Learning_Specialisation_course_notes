@@ -717,6 +717,30 @@ This repository contains the notes and key concepts from below resources
 </details>
 
 
+
+
+<br>
+<br>
+
+
+# Module 2: Unsupervised Learning, Recommender Systems, Reinforcement Learning
+
+<details>
+<summary>🎯Q. what is clustering ? what is k-means algorithm ?</summary>
+
+- clustering algorithms looks at number of data points and tries to group them into clusters based on similarity.
+- ![alt text](image-234.png)
+- ![alt text](image-235.png)
+- ![alt text](image-236.png)
+- K-means algorithm is a popular clustering algorithm that partitions data points into K clusters based on their similarity. It works by iteratively assigning data points to the nearest cluster centroid and updating the centroids based on the assigned points.
+- ![alt text](image-237.png)
+- ![alt text](image-238.png)
+- now keep repeating above 2 steps until centroids do not change.
+- ![alt text](image-239.png)
+- ![alt text](image-240.png)
+
+</details>
+
 <details>
 <summary>🎯Q. fsdfsdf</summary>
 
