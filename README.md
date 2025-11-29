@@ -723,7 +723,7 @@ This repository contains the notes and key concepts from below resources
 <br>
 
 
-# Module 2: Unsupervised Learning, Recommender Systems, Reinforcement Learning
+# Module 3: Unsupervised Learning, Recommender Systems, Reinforcement Learning
 
 <details>
 <summary>🎯Q. what is clustering ? what is k-means algorithm ?</summary>
@@ -738,14 +738,101 @@ This repository contains the notes and key concepts from below resources
 - now keep repeating above 2 steps until centroids do not change.
 - ![alt text](image-239.png)
 - ![alt text](image-240.png)
+- ![alt text](image-241.png)
+- ![alt text](image-242.png)
+- ![alt text](image-243.png)
+- For every single iteration the distortion should decrease or stay the same. If it increases then there is a bug in the code.
+- ![alt text](image-244.png)
+- use more than one random initialization which causes k means to do much better job minimizing the distortion function and finding the much better choice for the cluster centroids.
 
 </details>
 
 <details>
-<summary>🎯Q. fsdfsdf</summary>
+<summary>🎯Q. How do you choose the number of cluster centroids</summary>
 
-- dsd
+- ![alt text](image-245.png)
+- ![alt text](image-246.png)
 
+</details>
+
+<details>
+<summary>🎯Q. Anomoly detection algorithm</summary>
+
+- Anomaly detection algorithms are used to identify rare items, events, or observations that raise suspicions by differing significantly from the majority of the data.
+- ![alt text](image-247.png)
+- ![alt text](image-248.png)
+- ![alt text](image-249.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Gaussian Distribution(normal distribution) for anomoly detection</summary>
+
+- Anomaly detection algorithms often assume that the data follows a Gaussian distribution. This allows for the identification of outliers based on how far they deviate from the mean of the distribution.
+- ![alt text](image-250.png)
+- ![alt text](image-251.png)
+- ![alt text](image-252.png)
+- ![alt text](image-253.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Anomoly detection algorithm</summary>
+
+- ![alt text](image-254.png)
+- ![alt text](image-255.png)
+- ![alt text](image-256.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Developing and Evaluating an anomoly detection system</summary>
+
+- ![alt text](image-257.png)
+- ![alt text](image-258.png)
+- ![alt text](image-259.png)
+</details>
+
+<details>
+<summary>🎯Q. Anomoly detection vs supervised learning</summary>
+
+- ![alt text](image-260.png)
+- ![alt text](image-261.png)
+- Anomaly detection tries to find brand new examples that are unlikely to have happened before; however, supervised learning looks at your positive examples and decides if future examples are similar to those positive examples that you have already seen.
+</details>
+
+<details>
+<summary>🎯Q. choosing a features in anomaly detection</summary>
+
+- ![alt text](image-262.png)
+- ![alt text](image-263.png)
+- ![alt text](image-264.png)
+</details>
+
+
+
+### Recommender system
+<details>
+<summary>🎯Q. Predicting movie ratings - making recommendations </summary>
+
+- ![alt text](image-265.png)
+- ![alt text](image-266.png)
+- ![alt text](image-267.png)
+- ![alt text](image-268.png)
+
+</details>
+
+<details>
+<summary>🎯Q. making recommendations without predefined features set - collaborative filtering algorithm</summary>
+
+- ![alt text](image-269.png)
+- ![alt text](image-270.png)
+- ![alt text](image-271.png)
+- ![alt text](image-272.png)
+- ![alt text](image-273.png)
+- ![alt text](image-274.png)
+- ![alt text](image-275.png)
+- ![alt text](image-276.png)
 </details>
 
 <br>
