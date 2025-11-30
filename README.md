@@ -833,6 +833,102 @@ This repository contains the notes and key concepts from below resources
 - ![alt text](image-274.png)
 - ![alt text](image-275.png)
 - ![alt text](image-276.png)
+- ![alt text](image-277.png)
+- ![alt text](image-278.png)
+- ![alt text](image-282.png)
+- ![alt text](image-283.png)
+</details>
+
+<details>
+<summary>🎯Q. Tensor flow implementation of collaborative filtering</summary>
+
+- ![alt text](image-279.png)
+- ![alt text](image-280.png)
+- ![alt text](image-281.png)
+
+
+</details>
+
+
+<details>
+<summary>🎯Q. collaborative based filtering vs content based filtering</summary>
+
+- ![alt text](image-284.png)
+- ![alt text](image-285.png)
+- ![alt text](image-286.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Deep learning for content based filtering</summary>
+
+- ![alt text](image-287.png)
+- ![alt text](image-288.png)
+- ![alt text](image-289.png)
+- ![alt text](image-290.png)
+- ![alt text](image-291.png)
+- ![alt text](image-292.png)
+- ![alt text](image-293.png)
+
+</details>
+
+<details>
+<summary>🎯Q. Ethical issues associated with recommendation systems</summary>
+
+- ![alt text](image-294.png)
+- ![alt text](image-295.png)
+- ![alt text](image-296.png)
+</details>
+
+<details>
+<summary>🎯Q. content based filtering with TensorFlow</summary>
+
+- ![alt text](image-297.png)
+</details>
+
+#### PCA
+<details>
+<summary>🎯Q. Principle component analysis PCA unsupervised learning algorithm</summary>
+
+- PCA commonly used for visualization of high dimensional data and for reducing the dimensionality of the data before applying supervised learning algorithms.
+- ![alt text](image-298.png)
+- ![alt text](image-299.png)
+- ![alt text](image-300.png)
+- ![alt text](image-301.png)
+- ![alt text](image-302.png)
+- ![alt text](image-303.png)
+- ![alt text](image-304.png)
+- ![alt text](image-305.png)
+</details>
+
+<br>
+<br>
+
+### Reinforcement learning
+
+<details>
+<summary>🎯Q. what is reinforcement learning</summary>
+
+- Reinforcement learning is a type of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative reward.
+- Trainig a dog is a good example of reinforcement learning. When the dog performs a desired behavior, it receives a treat (reward), which reinforces that behavior. Over time, the dog learns to associate certain actions with positive outcomes and adjusts its behavior accordingly.
+- ![alt text](image-306.png)
+- ![alt text](image-307.png)
+- ![alt text](image-308.png)
+- ![alt text](image-309.png)
+</details>
+
+<details>
+<summary>🎯Q. The return in the reinforcement learning</summary>
+
+- The discount factor (gamma) is a value between 0 and 1 that determines the importance of future rewards in reinforcement learning. It is used to calculate the present value of future rewards by discounting them based on how far into the future they will be received.
+- ![alt text](image-310.png)
+- 
+</details>
+
+<details>
+<summary>🎯Q. gfgfgfgfg</summary>
+
+- 
 </details>
 
 <br>
