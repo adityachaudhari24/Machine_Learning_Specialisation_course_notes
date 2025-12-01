@@ -922,7 +922,66 @@ This repository contains the notes and key concepts from below resources
 
 - The discount factor (gamma) is a value between 0 and 1 that determines the importance of future rewards in reinforcement learning. It is used to calculate the present value of future rewards by discounting them based on how far into the future they will be received.
 - ![alt text](image-310.png)
+- returns you get is depends on the rewards and rewards depends on the action you take. Hence returns depends on the actions you take.
+- ![alt text](image-311.png)
+</details>
+
+<details>
+<summary>🎯Q. Policies in reinforcement learning</summary>
+
+- In reinforcement learning the goal is to come uo with the function/policy (pi) whos job is to take the input in any state S and map it to the action A that it wants us to take.
+- ![alt text](image-312.png)
+- ![alt text](image-313.png)
+- ![alt text](image-314.png)
+- ![alt text](image-315.png)
+</details>
+
+<details>
+<summary>🎯Q. State-Action value function</summary>
+
+- ![alt text](image-316.png)
+- ![alt text](image-317.png)
 - 
+</details>
+
+<details>
+<summary>🎯Q. what is Bellman equation</summary>
+
+- Bellman equation helps to compute the action-value function Q for a given policy π.
+- ![alt text](image-318.png)
+- ![alt text](image-319.png)
+- ![alt text](image-320.png)
+</details>
+
+<details>
+<summary>🎯Q. what is stochastic environment ?</summary>
+
+- In reinforcement learning, a stochastic environment is one where the outcomes of actions taken by an agent are not deterministic, meaning they can vary even when the same action is taken in the same state. This introduces uncertainty and randomness into the learning process.
+</details>
+
+<details>
+<summary>🎯Q. Discrete states vs continuous states</summary>
+
+- ![alt text](image-322.png)
+- ![alt text](image-323.png)
+- Job of the policy is look at the state and tell us what action to take.
+
+</details>
+
+<details>
+<summary>🎯Q. Lunar Lander problem</summary>
+
+- ![alt text](image-324.png)
+- ![alt text](image-325.png)
+- ![alt text](image-326.png)
+- ![alt text](image-327.png)
+- ![alt text](image-328.png)
+- ![alt text](image-329.png)
+- This algorithm also called as DQN (Deep Q Network) algorithm.
+- ![alt text](image-330.png)
+- ![alt text](image-331.png)
+- Epsilon greedy policy - meaning most of the time we will be exploiting the knowledge we have gained so far by taking the action that has the highest Q value for the current state. However, with a small probability (epsilon), we will explore by taking a random action. This exploration helps the agent discover new states and actions that may lead to higher rewards in the long run.
+- ![alt text](image-332.png)
 </details>
 
 <details>
